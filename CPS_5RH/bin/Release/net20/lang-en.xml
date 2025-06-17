@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<AirControl language="English">
+  <EmergCombobox>
+    <Item id="0" key="0" value="Native Mode" />
+    <Item id="1" key="1" value="Tx ENI+Sound (No Local Beep)" />
+    <Item id="2" key="2" value="Tx ENI+Beep (No Local Beep)" />
+    <Item id="3" key="3" value="Tx ENI+Beep (Local Beep)" />
+    <Item id="4" key="4" value="None" />
+    <Item id="5" key="5" value="5-Tone" />
+    <Item id="6" key="6" value="Selected" />
+    <Item id="7" key="7" value="Assign Channel" />
+    <Item id="8" key="8" value="Select Channel" />
+    <Item id="9" key="9" value="Sustainable" />
+  </EmergCombobox>
+  <ElseCombobox>
+    <Item id="0" key="0" value="None" />
+    <Item id="1" key="1" value="OFF" />
+    <Item id="2" key="2" value="Tone" />
+    <Item id="3" key="3" value="Tone Reply" />
+    <Item id="4" key="4" value="SMS" />
+    <Item id="5" key="5" value="END TX" />
+    <Item id="6" key="6" value="BOTH" />
+    <Item id="7" key="7" value="List 1" />
+    <Item id="8" key="8" value="List 2" />
+    <Item id="9" key="9" value="List 3" />
+    <Item id="10" key="10" value="List 4" />
+    <Item id="11" key="11" value="List 5" />
+    <Item id="12" key="12" value="Squelch" />
+    <Item id="13" key="13" value="Stun" />
+    <Item id="14" key="14" value="Kill" />
+    <Item id="15" key="15" value="Wakeup" />
+    <Item id="16" key="16" value="Emergency" />
+    <Item id="17" key="17" value="All Call" />
+    <Item id="18" key="18" value="Group Call" />
+    <Item id="19" key="NameEmpty" value="Name cannot be empty!" />
+    <Item id="20" key="ListFull" value="List is full" />
+    <Item id="21" key="NoPort" value="Please select a communication port!" />
+    <Item id="22" key="ZoneErr" value="Device Zone Type Err!" />
+    <Item id="23" key="Invalid File" value="Invalid File!" />
+    <Item id="24" key="FileNone" value="File is not exist!" />
+    <Item id="25" key="FileSErr" value="File save err!" />
+    <Item id="26" key="ClrAll" value="All Data Will Clear!" />
+    <Item id="27" key="None" value="None" />
+    <Item id="28" key="28" value="OFF" />
+    <Item id="29" key="29" value="DT-ST" />
+    <Item id="30" key="30" value="ANI-ST" />
+    <Item id="31" key="31" value="DT+ANI" />
+  </ElseCombobox>
+
+  <GenCoBox>
+    <Item id="0" key="0" value="OFF" />
+    <Item id="1" key="1" value="ON" />
+    <Item id="2" key="2" value="Chinese" />
+    <Item id="3" key="3" value="English" />
+    <Item id="4" key="4" value="Frequency" />
+    <Item id="5" key="5" value="Name" />
+   <Item id="6" key="6" value="Number" />
+   <Item id="7" key="7" value="Dual Waiting" />
+   <Item id="8" key="8" value="Single Waiting" />
+   <Item id="9" key="9" value="Picture" />
+   <Item id="10" key="10" value="Character" />
+   <Item id="11" key="11" value="Voltage" />
+   <Item id="12" key="12" value="Always" />
+   <Item id="13" key="13" value="Mode 1" />
+   <Item id="14" key="14" value="Mode 2" />
+   <Item id="15" key="15" value="Mode 3" />
+   <Item id="16" key="16" value="Receive" />
+   <Item id="17" key="17" value="Transmit" />
+   <Item id="18" key="18" value="All" />
+   <Item id="19" key="19" value="BeiDou" />
+   <Item id="20" key="20" value="GPS+BeiDou" />
+   <Item id="21" key="21" value="Search" />
+   <Item id="22" key="22" value="Available" />
+   <Item id="23" key="23" value="Paired" />
+   <Item id="24" key="24" value="Disconnect" />
+   <Item id="25" key="25" value="∞" />
+   <Item id="26" key="26" value="None" />
+   <Item id="27" key="27" value="Scan On/Off" />
+   <Item id="28" key="28" value="Monitor" />
+   <Item id="29" key="29" value="FlashLight" />
+   <Item id="30" key="30" value="FM Radio" />
+   <Item id="31" key="31" value="Emergency" />
+   <Item id="32" key="32" value="GPS" />
+   <Item id="33" key="33" value="Freq. Measuring" />
+   <Item id="34" key="34" value="Bluetooth" />
+   <Item id="35" key="35" value="1750Hz" />
+   <Item id="36" key="36" value="Falling Alarm" />
+   <Item id="37" key="37" value="One Touch Call" />
+   <Item id="38" key="38" value="Zone Change" />
+   <Item id="39" key="39" value="Battery Indicator" />
+   <Item id="40" key="40" value="Tx Power" />
+   <Item id="41" key="41" value="VOX On/Off" />
+   <Item id="42" key="42" value="STAN" />
+   <Item id="43" key="43" value="FAIL" />
+   <Item id="44" key="44" value="Frequency+Name" />
+  </GenCoBox>
+
+<ScanCoBox>
+    <Item id="0" key="0" value="All" />
+    <Item id="1" key="1" value="Memory Scan" />
+    <Item id="2" key="2" value="Frequency Range" />
+    <Item id="3" key="3" value="Selected" />
+    <Item id="4" key="4" value="Selected+Current" />
+    <Item id="5" key="5" value="Last Receive Call" />
+    <Item id="6" key="6" value="Last Use" />
+    <Item id="7" key="7" value="Priority" />
+    <Item id="8" key="8" value="Priority+Current" />
+    <Item id="9" key="9" value="TO" />
+    <Item id="10" key="10" value="CO" />
+    <Item id="11" key="11" value="SO" />
+ </ScanCoBox>
+
+  <ChnCoBox>
+    <Item id="0" key="0" value="None" />
+    <Item id="1" key="1" value="OFF" />
+    <Item id="2" key="2" value="ON" />
+    <Item id="3" key="3" value="BOT" />
+    <Item id="4" key="4" value="EOT" />
+    <Item id="5" key="5" value="BOTH" />
+    <Item id="6" key="6" value="Low" />
+    <Item id="7" key="7" value="Middle" />
+    <Item id="8" key="8" value="High" />
+    <Item id="9" key="9" value="Repeater" />
+    <Item id="10" key="10" value="Busy" />
+    <Item id="11" key="11" value="Optional" />
+    <Item id="12" key="12" value="CTDCS Or Optional" />
+    <Item id="13" key="13" value="CTDCS And Optional" />
+    <Item id="14" key="14" value="Normal" />
+    <Item id="15" key="15" value="Strict" />
+</ChnCoBox>
+
+  <AprsCoBox>
+    <Item id="0" key="0" value="OFF" />
+    <Item id="1" key="1" value="ON" />
+    <Item id="2" key="2" value="Low" />
+    <Item id="3" key="3" value="Middle" />
+    <Item id="4" key="4" value="High" />
+    <Item id="5" key="5" value="East" />
+    <Item id="6" key="6" value="West" />
+    <Item id="7" key="7" value="South" />
+    <Item id="8" key="8" value="North" />
+    <Item id="9" key="9" value="Open" />
+    <Item id="10" key="10" value="ft" />
+    <Item id="11" key="11" value="m" />
+    <Item id="12" key="12" value="BOT" />
+    <Item id="13" key="13" value="EOT" />
+</AprsCoBox>
+</AirControl>
