@@ -108,30 +108,18 @@ def process_file(input_file, output_file=None, mode=None):
             print("Error: Cannot decrypt - file is already decrypted")
             return
         
-        # Validate header for encryption (original file)
-        # For decryption, need to validate after XORing
-        if mode == 'encrypt':
-            is_valid, message = validate_firmware_header(data)
-            if not is_valid:
-                print(f"Warning: {message}")
-                response = input("Continue anyway? (y/n): ")
-                if response.lower() != 'y':
-                    print("Operation cancelled.")
-                    return
-        
+        # Validate header before processing
+        is_valid, message = validate_firmware_header(data)
+        if not is_valid:
+            print(f"Warning: {message}")
+            response = input("Continue anyway? (y/n): ")
+            if response.lower() != 'y':
+                print("Operation cancelled.")
+                return
+                
         # XOR each byte starting from offset
         for i in range(OFFSET, len(data)):
             data[i] ^= XOR_KEY
-        
-        # For decryption, validate after decrypting
-        if mode == 'decrypt':
-            is_valid, message = validate_firmware_header(data)
-            if not is_valid:
-                print(f"Warning: {message}")
-                response = input("Continue anyway? (y/n): ")
-                if response.lower() != 'y':
-                    print("Operation cancelled.")
-                    return
         
         # Write modified data to output file
         with open(output_file, 'wb') as f_out:
